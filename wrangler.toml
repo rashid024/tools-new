@@ -1,0 +1,9 @@
+name = "toolhub-site"
+type = "static"
+
+[build]
+  command = "echo 'No build command needed'"
+  directory = "dist"  # Specify the output directory if you are using any build system, else leave empty.
+
+[deploy]
+  branch = "main"
